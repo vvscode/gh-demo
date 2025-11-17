@@ -1,5 +1,5 @@
-import './runApp.css';
+import "./runApp.css";
 
 export function runApp(el) {
-    el.innerHTML = `<h1 class="runApp">Hello there</h1>`
+  el.innerHTML = `<h1 class="runApp">Hello there</h1>`;
 }
