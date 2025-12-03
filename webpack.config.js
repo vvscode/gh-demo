@@ -25,5 +25,9 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "public/index.html",
     }),
+    new HtmlWebpackPlugin({
+      filename: "404.html",
+      template: "public/index.html",
+    }),
   ],
 };
